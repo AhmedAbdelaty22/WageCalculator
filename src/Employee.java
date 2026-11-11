@@ -12,7 +12,7 @@ public class Employee {
     }
 
     public static void printNumberOfEmployees() {
-        System.out.println("Number of Employees is : " + numberOfEmployees);
+        IO.println("Number of Employees is : " + numberOfEmployees);
     }
 
     public int calculateWage(int extraHours) {
